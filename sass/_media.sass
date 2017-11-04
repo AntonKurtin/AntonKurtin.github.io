@@ -1,0 +1,297 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	
+	.top-menu
+		display: none
+
+
+	.main-header
+		.top-menu
+			position: absolute
+			background-color: #394B5F
+			top: 91px
+			right: 0
+			max-width: 320px
+			z-index: 3000
+			height: 0
+			&.open
+				display: flex
+				justify-content: center
+				height: 375px
+				ul
+					display: flex
+					flex-direction: column
+					justify-content: space-around
+					padding: 50px 0
+				li
+					margin: 0
+					display: flex
+					justify-content: center
+					a
+						font-family: PFCentro-font, sans-serif
+						font-size: 23px
+						&:hover
+							text-decoration: none
+						&.active
+							text-decoration: none
+					
+	.toggle-menu
+		z-index: 6
+
+
+	.phone
+		margin-right: 30px
+
+	.triangle-bg
+		padding-bottom: 349px
+
+
+	.s9
+		.main-header
+			.top-menu
+				top: -315px
+				
+
+
+
+
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.header-wrap-left
+		h1
+			margin: 0
+
+	.triangle-bg
+		display: none
+
+	.section-content
+		background: none
+		.item-1
+			padding: 0
+			p
+				max-width: 342px
+		.item-2
+			padding: 0
+		.item-3
+			padding: 0
+			margin-top: 53px
+			p
+				max-width: 323px
+		.item-7
+			padding: 0
+			margin-top: 53px
+			p
+				max-width: 342px
+		.item-4
+			padding: 0
+			margin-top: -68px
+		.item-5
+			padding: 0
+			margin-top: -69.2px
+			p
+				color: #111
+		.item-6
+			padding: 0
+			margin-top: 53px
+			p
+				color: #111
+		.item-8
+			padding: 0
+			margin-top: 53px
+			p
+				color: #111
+				max-width: 342px
+		.last-line
+			padding: 0
+		p
+			max-width: 100%
+			&:after
+				display: none
+		h1
+			max-width: 100%
+
+	.top-menu
+		width: 100%
+
+
+	.s2-item-9
+		margin-left: 122px
+
+
+	.s3
+		.section-content
+			background-image: none
+			p
+				color: #fff
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.header-wrap-left
+		// padding-left: 50px
+		h1
+			font-size: 32px
+			margin-top: -60px
+			line-height: 55px
+
+	.section-content
+		background: none
+		.item-1
+			padding: 0
+			text-align: center
+			p
+				max-width: 100%
+		.item-2
+			padding: 0
+			margin-top: 50px
+			text-align: center
+		.item-3
+			padding: 0
+			margin-top: 50px
+			text-align: center
+			p
+				max-width: 100%
+		.item-7
+			padding: 0
+			margin-top: 50px
+			text-align: center
+			p
+				max-width: 100%
+		.item-4
+			padding: 0
+			margin-top: 50px
+			text-align: center
+		.item-5
+			padding: 0
+			margin-top: 50px
+			text-align: center
+			p
+				color: #111
+		.item-6
+			padding: 0
+			margin-top: 50px
+			text-align: center
+			p
+				color: #111
+		.item-8
+			padding: 0
+			margin-top: 50px
+			text-align: center
+			p
+				max-width: 100%
+			p
+				color: #111
+		.last-line
+			padding: 0
+		p
+			max-width: 100%
+			&:after
+				display: none
+		h1
+			max-width: 100%
+
+	.homesect
+		.section-head
+			p
+				text-align: center
+	
+
+	.s2-item-9
+		margin-left: 0px
+
+
+
+	.s3
+		.section-content
+			background-image: none
+			p
+				color: #fff
+				max-width: 400px
+				margin: auto
+				margin-top: 13px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.top-phone
+		font-size: 16px
+		line-height: 20px
+
+	.logo
+		img
+			width: 65px
+
+	.toggle-menu
+		margin-bottom: 5px
+			
+	
+	.s5
+		.s5-content
+			.s5-items-wrap
+				.s5-item
+					margin-left: 0px
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.hamburger
+		display: none
+
+	.top-menu
+		display: block !important
+
+
+
+
+	.s3
+		.section-content
+			.item-1
+				// padding-right: 125px
+				// margin-left: 80px
+				padding-left: 90px
+				padding-right: 50px
+			.item-8
+				padding-left: 90px
+				padding-right: 50px
+			.item-4
+				padding-left: 90px
+			.item-5
+				padding-top: 110px
+				padding-right: 50px
